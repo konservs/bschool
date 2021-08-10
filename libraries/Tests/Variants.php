@@ -11,8 +11,8 @@ namespace BSchool\Tests;
  * @author Andrii Biriev <a@konservs.com>
  * @copyright © Andrii Biriev, a@konservs.com, www.konservs.com
  */
-class Variants extends \Brilliant\Items\BItemsTree{
+class Variants extends \Brilliant\Items\BItemsList{
 	use \Brilliant\BSingleton;
 	protected $tableName='bschool_tests_variants';
-	protected $itemClassName='\BSchool\Tests\Variants';
+	protected $itemClassName='\BSchool\Tests\Variant';
 	}

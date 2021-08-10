@@ -8,7 +8,7 @@ use BSchool\Tests\Variants;
  * @author Andrii Biriev <a@konservs.com>
  * @copyright © Andrii Biriev, a@konservs.com, www.konservs.com
  */
-class Variant extends \Brilliant\Items\BItemsItemTree{
+class Variant extends \Brilliant\Items\BItemsItem{
 	protected $collectionname='\BSchool\Tests\Variants';
 	protected $tableName='bschool_tests_variants';
 	/**

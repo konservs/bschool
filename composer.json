@@ -1,6 +1,7 @@
 {
 	"name": "konservs/bschool",
 	"description": "Package for school tasks",
+	"composer-runtime-api": "^2.0",
 	"version": "1.0.0",
 	"type": "library",
 	"keywords": ["school","tests","classes"],

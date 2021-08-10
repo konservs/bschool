@@ -1,6 +1,6 @@
 <?php
-namespace Brilliant\Portfolio;
-use Brilliant\Portfolio\Categories;
+namespace BSchool\Tests;
+use BSchool\Tests\Categories;
 
 /**
  * Basic class to control single bugtracker issue

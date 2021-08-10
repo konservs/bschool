@@ -13,6 +13,6 @@ namespace BSchool\Tests;
  */
 class Categories extends \Brilliant\Items\BItemsTree{
 	use \Brilliant\BSingleton;
-	protected $tableName='portfolio_categories';
+	protected $tableName='bschool_tests_categories';
 	protected $itemClassName='\BSchool\Tests\Category';
 	}

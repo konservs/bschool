@@ -12,8 +12,15 @@ use \BSchool\Tests\Variants;
 class Model_tests_checktest extends \Brilliant\MVC\BModel{
 	public function getData($segments){
 		$data=new stdClass;
+		$data->status = -1;
 		$bSchoolTestVariants = Variants::getInstance();
-		$data->item = $bSchoolTestVariants->itemGet($segments['id']);
+		$data->itemId = $segments['id'];
+		$data->item = $bSchoolTestVariants->itemGet($data->itemId);
+		if(!$data->item){
+			$data->status = 1;
+			return $data;
+			}
+		$data->status = 0;
 		return $data;
 		}
 	}

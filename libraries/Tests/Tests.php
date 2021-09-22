@@ -14,5 +14,5 @@ namespace BSchool\Tests;
 class Tests extends \Brilliant\Items\BItemsList{
 	use \Brilliant\BSingleton;
 	protected $tableName='bschool_tests';
-	protected $itemClassName='\BSchool\Tests\Tests';
+	protected $itemClassName='\BSchool\Tests\Test';
 	}

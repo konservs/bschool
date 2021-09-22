@@ -2,7 +2,7 @@
 namespace BSchool\Tests;
 
 /**
- * Basic class to control Portfolio Categories
+ * Basic class to control tests variants
  *
  * @method \BSchool\Tests\Variant itemGet(integer $id)
  * @method \BSchool\Tests\Variant[] itemsGet(integer[] $ids)

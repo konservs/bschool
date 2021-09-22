@@ -53,7 +53,7 @@ class Tools{
 			$result = self::$chars[$digit].$result;
 			}
 		//Strip leading zeros
-		$result = ltrim($result, $charToNum[0]);
+		$result = ltrim($result, self::$chars[0]);
 		return $result;
 	}
 }

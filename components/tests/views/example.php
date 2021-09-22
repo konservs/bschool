@@ -16,11 +16,12 @@ class View_tests_example extends \Brilliant\MVC\BView{
 		//Set headers
 		$this->item = $data->item;
 		$this->itemId = $data->itemId;
+		$this->questions = $data->questions;
 		$this->setTitle($data->item->name);
 		//$this->addMeta('description', $metadesc);
 		//$this->addMeta('keywords', $metakeyw);
 		//Cache (if the cache is enabled) and return HTML!
-		$this->setcache(true,3600);//Cache for 1 hour
+		//$this->setcache(true,3600);//Cache for 1 hour
 		return $this->templateLoad();
 		}
 	}

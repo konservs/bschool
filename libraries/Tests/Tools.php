@@ -52,5 +52,6 @@ class Tools{
 			$num = (int)$num / self::$base;
 			$result = self::$chars[$digit].$result;
 			}
+		return $result;
 	}
 }

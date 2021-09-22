@@ -52,6 +52,8 @@ class Tools{
 			$num = (int)$num / self::$base;
 			$result = self::$chars[$digit].$result;
 			}
+		//Strip leading zeros
+		$result = ltrim($result, $charToNum[0]);
 		return $result;
 	}
 }

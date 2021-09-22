@@ -25,6 +25,7 @@ class Test extends \Brilliant\Items\BItemsItem{
 	function __construct() {
 		parent::__construct();
 		$this->fieldAddRaw('name','string');
+		$this->fieldAddRaw('requirements_time','string');
 		//Created & modified
 		$this->fieldAddRaw('created','dt',array('readonly'=>true));
 		$this->fieldAddRaw('modified','dt',array('readonly'=>true));
